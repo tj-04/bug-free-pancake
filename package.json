@@ -1,0 +1,33 @@
+{
+  "name": "online-book-library",
+  "version": "1.0.0",
+  "description": "Online Book Library for self",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/tj-04/bug-free-pancake.git",
+  "author": "Tejas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tj-04/bug-free-pancake/issues"
+  },
+  "homepage": "https://github.com/tj-04/bug-free-pancake#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^4.6.2"
+  }
+}
