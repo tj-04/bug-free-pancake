@@ -10,6 +10,9 @@ async function authorDetails(req, res) {
   if (req.body) {
     res.status(403).send({message: 'Forbidden!!!'});
   }
+  if (req.query) {
+    res.status(200).send({message: 'test'});
+  }
   res.status(200).send({message: 'Done!!!'});
 }
 
